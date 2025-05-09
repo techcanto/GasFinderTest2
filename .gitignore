@@ -1,0 +1,53 @@
+# Entorno virtual de Python
+venv/
+.env/
+ENV/
+env/
+
+# Archivos de configuración local (incluyendo .env)
+.env
+*.env
+.env.local
+.env.*.local
+secrets.json
+config_local.py
+
+# Archivos de Python generados
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Base de datos (SQLite, PostgreSQL, etc.)
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# Media y archivos estáticos (subidos en tiempo de ejecución)
+/media/
+/staticfiles/
+/static/
+
+# Logs y debug
+*.log
+logs/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js / Frontend (si usas Webpack, etc.)
+node_modules/
+/assets/bundles/
+/webpack-stats.json
+
+# Entornos de desarrollo (Docker, etc.)
+docker-compose.yml
+.dockerignore
+
+# Wagtail/Django específico
+.DS_Store
+Thumbs.db
