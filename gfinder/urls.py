@@ -9,6 +9,7 @@ from wagtail.documents import urls as wagtaildocs_urls
 from gfinder.search import views as search_views
 
 urlpatterns = [
+    path("api/", include("api.urls")),
     path("books/", include("books.urls")), # es una importacion lazy
     path("django-admin/", admin.site.urls),
     path("admin/", include(wagtailadmin_urls)),
